@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Encrypted Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-box" id="loginBox">
+    <h2>Enter Password</h2>
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="unlock()">Unlock</button>
+    <p id="error"></p>
+  </div>
+
+  <div class="portfolio" id="portfolio">
+    <header>
+      <h1>My Portfolio</h1>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Skills</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <section class="card">
+        <h2>Project One</h2>
+        <p>Responsive Website Design</p>
+      </section>
+
+      <section class="card">
+        <h2>Project Two</h2>
+        <p>JavaScript Image Gallery</p>
+      </section>
+
+      <section class="card">
+        <h2>Project Three</h2>
+        <p>CSS Flexbox Layout</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 My Portfolio</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
